@@ -1,37 +1,20 @@
-Command
+For git : https://git-scm.com/doc
+For github : https://docs.github.com/en
 
-Public repo 
- git init
-  503  git status
-  504  git add Codefile.txt
-  505  git status
-  506  git commit -m " Commiting my codefile "
-  507  git status
-  508  git add Codefile.txt
-  509  git status
-  510  git commit -m " Updated my file "
-  511  git log
-  512  git remote add origin https://github.com/Amanintellipaat/Demo26.git
-  513  git remote -v
-  514  git push origin master
+Git Assignment 1 
 
-Private Repo 
-
-502  git init
-  503  git add Private.txt
-  504  git status
-  505  git commit -m " private "
-  506  git remote add origin git@github.com:Amanintellipaat/private.git
-  507  git remote -v
-  508  ssh-keygen
-  509  cat  /c/Users/Admin/.ssh/id_rsa.pub
-  510  git push origin master
-
-
-git remote add origin https://github.com/Menaka1010/GIT-Assignment1.git
-
-git branch feature
-git checkout feature
+git init
+ touch Code.txt Output.txt Log.txt
+  ls
+  git status
+  git add Code.txt
+  git add Output.txt
+  git status
+   git commit -m " Code & output "
+  git remote add origin https://github.com/Amanintellipaat/Assignment1-04Mar.git
+  git remote -v
+ git push origin master
+  history
 
 Commands
 git branch : Will show the list of
@@ -44,7 +27,7 @@ git stash pop : to bring back the file
 
 Git Assignment 2 
 
- 501  git init
+git init
   502  touch feature1.txt feature2.txt
   503  ls
   508  git branch
@@ -78,3 +61,92 @@ Git Assignment 2
   536  ls
   537  git add develop.txt
   538  git commit -m " develop file "
+  
+ Assignment 3 
+501  git init
+  502  touch main.txt
+  503  git commit -m " dksjd"
+  504  git add main.txt
+  505  git commt -m " main file "
+  506  git commit -m " main file "
+  507  git branch develop
+  508  git branch f1
+  509  git branch f2
+  510  clear
+  511  git branch
+  512  git checkout develop
+  513  touch develop.txt
+  514  git add develop.txt && git commit -m " develop file "
+  515  git checkout f1 && touch f1.txt && git add f1.txt
+  516  ls
+  517  git status
+  518  git commit -m " f1.txt "
+  519  git checkout f2 && touch f2.txt && git add f2.txt && git commit -m " f2 "
+  520  ls
+  521  git status
+  522  clear
+  523  git remote add origin https://github.com/Amanintellipaat/A03-1Apr.git
+  524  git branch
+  525  git push --all
+  526  git branch -D f2
+  527  git branch
+  528  git checkout master
+  529  git branch -D f2
+  530  git branch
+  531  git push origin --delete f2
+  532  clear
+  533  history
+  
+  Assignment 4 
+  
+   501  git init
+  502  touch master.txt
+  503  git add master.txt && git commit -m " master.txt "
+  504  git branch
+  505  git branch private && git branch publi1c1 && git branch publi1c2
+  506  git branch
+  507  git checkout publi1c1
+  508  touch public1.txt
+  509  git add public1.txt && git commit -m " public 1 file "
+  510  git checkout master
+  511  clear
+  512  ls
+  513  git merge publi1c1
+  514  ls
+  515  git merge publi1c2
+  516  git checkout private
+  517  ls
+  518  nano master.txt
+  519  nano master.txt
+  520  cat master.txt
+  521  git status
+  522  git add master.txt && git commit -m " edited in private branch "
+  523  clear
+  524  git branch
+  525  git checkout publi1c1
+  526  ls
+  527  cat master.txt
+  528  git merge private
+  529  cat master.txt
+  530  git checkout publi1c2
+  531  ls
+  532  git merge private
+  533  ls
+  534  cat master.txt
+  535  git checkout master
+  536  git merge private
+  537  cat master.txt
+  538  git checkout private
+  539  ls
+  540  git merge master
+  541  ls
+  542  history
+
+Assignment 5 
+
+https://prnt.sc/bgoPN4SLHAiK
+
+
+  
+  
+  539  history
