@@ -32,3 +32,49 @@ git remote add origin https://github.com/Menaka1010/GIT-Assignment1.git
 
 git branch feature
 git checkout feature
+
+Commands
+git branch : Will show the list of
+ all the branches
+git branch <branchname> : To create a new branch 
+git checkout <branchname> : To change the branches 
+git merge <branch name > : To update the branch
+git stash -u : to stash the file 
+git stash pop : to bring back the file 
+
+Git Assignment 2 
+
+ 501  git init
+  502  touch feature1.txt feature2.txt
+  503  ls
+  508  git branch
+  509  git add .
+  510  git commit -m " 2 file "
+  511  git branch
+  512  clear
+  513  git branch
+  514  ls
+  515  git branch feature1
+  516  git branch feature12
+  517  git branch develop
+  518  git branch
+  519  git checkout develop
+  520  git branch
+  521  ls
+  522  touch develop.txt
+  523  ls
+  524  git stash -u
+  525  ls
+  526  clear
+  527  git checkout feature1
+  528  touch new.txt
+  529  ls
+  530  git add .
+  531  git commit -m " new file "
+  532  git status
+  533  git checkout develop
+  534  ls
+  535  git stash pop
+  536  ls
+  537  git add develop.txt
+  538  git commit -m " develop file "
